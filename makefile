@@ -1,6 +1,12 @@
-hello:
-	@echo "Hello World"
+NAME := ll
 
 
-bruh:
-	@echo "Hello bruh"
+CFILES := $(wildcard *.c)
+CFLAGS := -o
+
+all:
+	gcc $(CFILES) $(CFLAGS) $(NAME)
+
+clean:
+	rm -f ll %.o
+
