@@ -2,10 +2,10 @@ NAME := ll
 
 
 CFILES := $(wildcard *.c)
-CFLAGS := -o
+CFLAGS := -Ofast
 
 all:
-	gcc $(CFILES) $(CFLAGS) $(NAME)
+	gcc $(CFLAGS) $(CFILES) -o $(NAME)
 
 clean:
 	rm -f ll %.o
