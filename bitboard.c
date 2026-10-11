@@ -33,8 +33,3 @@ void print_bitboard(U64 bitboard)
     }
     printf("\n");
 }
-
-void private_func()
-{
-    printf("bruh this won't print");
-}
