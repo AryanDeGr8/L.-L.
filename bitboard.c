@@ -1,8 +1,6 @@
 #include "bitboard.h"
 #include <stdio.h>
 
-int bruh = 234234;
-
 void print_bitboard(U64 bitboard)
 {
     printf("\n");
@@ -34,4 +32,9 @@ void print_bitboard(U64 bitboard)
         printf("%c ", 'a' + i);
     }
     printf("\n");
+}
+
+void private_func()
+{
+    printf("bruh this won't print");
 }
